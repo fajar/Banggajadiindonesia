@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- <link rel="icon" href="favicon.ico"> -->
+
+    <title>Bangga Jadi Indonesia</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/query.css" rel="stylesheet">
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body>
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <nav class="navbar navbar-inverse navbar-static-top hidden-xs">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="profile.html">Redem Poin</a></li>
+                <li>
+                  <button type="button" class="btn menu-register" data-toggle="modal" data-target="#register">Login / Register</button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <nav class="navbar navbar-inverse navbar-static-top visible-xs">
+          <div class="container menu-home-profile">
+            <a href="index.html">Home <img class="home-right" src="img/home-right.png"></a>
+          </div>
+        </nav>
+
+      </div>
+    </div>
+
+    <!-- Slider
+    ================================================== -->
+    <section id="profile">
+      <div class="container-fluid">
+        <img class="img-responsive logo-profile" src="img/logo-profile.png">
+        <div class="profile">
+          <div class="profile-picture"><img src="img/profile-picture.png"></div>
+          <h1>
+            Indrianti Rahayu
+          </h1>
+          <button type="button" class="btn btn-lihat-grey" data-dismiss="modal">
+            <img src="img/icon-profile-ig.png">
+            instagram
+          </button>
+        </div>
+      </div>
+
+      <div class="container">
+        <ul class="nav nav-pills nav-justified">
+          <li class="hidden-xs"><a data-toggle="tab" href="#profile-tab"><img src="img/icon-profile-icon.png">Profile</a></li>
+          <li class="visible-xs active"><a data-toggle="tab" href="#m-status-poin"><img src="img/icon-profile-icon.png">Status Poin</a></li>
+          <li class="hidden-xs"><a data-toggle="tab" href="#status-poin"><img src="img/icon-profile-status-poin.png">Status Poin</a></li>
+          <li><a data-toggle="tab" href="#gallery"><img src="img/icon-profile-gallery.png">Gallery</a></li>
+          <li class="hidden-xs"><a data-toggle="tab" href="#redeem-items"><img src="img/icon-profile-redeem.png">Redeem Poin</a></li>
+        </ul>
+
+        <div class="tab-content">
+          <!-- PROFILE -->
+          <div id="profile-tab" class="tab-pane fade hidden-xs">
+            <h3>
+              1.500
+              <button class="btn btn-grey">Poin</button>
+            </h3>
+            <button class="btn btn-red">Redeem Poin</button>
+            <p>Tukar poin kamu dengan beragam promo menarik!</p>
+          </div>
+          <!-- STATUS POIN -->
+          <div id="status-poin" class="tab-pane fade hidden-xs">
+            <table>
+              <tr>
+                <th>Tanggal</th>
+                <th>Sumber Poin</th>
+                <th>Poin Yang Didapat</th>
+              </tr>
+              <tr>
+                <td>10.08.2017</td>
+                <td>Facebook</td>
+                <td><button class="btn btn-red">500</button></td>
+              </tr>
+              <tr>
+                <td>10.08.2017</td>
+                <td>Facebook</td>
+                <td><button class="btn btn-red">500</button></td>
+              </tr>
+              <tr>
+                <td>10.08.2017</td>
+                <td>Facebook</td>
+                <td><button class="btn btn-red">500</button></td>
+              </tr>
+              <tr>
+                <td>10.08.2017</td>
+                <td>Facebook</td>
+                <td><button class="btn btn-red">500</button></td>
+              </tr>
+              <tr>
+                <td colspan="3" class="total-poin">Total Poin <span class="red big-red">500</span></td>
+              </tr>
+            </table>
+            <div class="lihat"><button class="btn btn-red">Redeem Poin</button></div>
+          </div>
+          <!-- GALLERY -->
+          <div id="gallery" class="tab-pane fade">
+            <div class="row container">
+              <div class="col-xs-6 col-md-3 th-sosmed">
+                <div class="th-ig">
+                  <img class="img-responsive" src="img/th-ig.jpg">
+                  <div class="caption-gallery">
+                    <p>Perbedaan adalah alasan untuk memperbanyak teman.</p>
+                    <h5 class="red">#BanggaJadiIndonesia</h5>
+                    <img src="img/icon-gallery-ig.png"> @astuti
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-6 col-md-3 th-sosmed">
+                <div class="th-twitter">
+                  <div class="caption-gallery">
+                    <div class="br-left"><img src="img/br-left.png"></div>
+                    <p>Perbedaan adalah alasan untuk memperbanyak teman.</p>
+                    <h5 class="red">#BanggaJadiIndonesia</h5>
+                    <div class="br-right"><img src="img/br-right.png"></div>
+                    <img class="img-responsive th-prof-twitter" src="img/th-twitter.jpg">
+                    <img src="img/icon-gallery-twitter.png"> @astuti
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-6 col-md-3 th-sosmed">
+                <div class="th-twitter">
+                  <div class="caption-gallery">
+                    <div class="br-left"><img src="img/br-left.png"></div>
+                    <p>Perbedaan adalah alasan untuk memperbanyak teman.</p>
+                    <h5 class="red">#BanggaJadiIndonesia</h5>
+                    <div class="br-right"><img src="img/br-right.png"></div>
+                    <img class="img-responsive th-prof-twitter" src="img/th-twitter.jpg">
+                    <img src="img/icon-gallery-twitter.png"> @astuti
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-6 col-md-3 th-sosmed">
+                <div class="th-ig">
+                  <img class="img-responsive" src="img/th-ig.jpg">
+                  <div class="caption-gallery">
+                    <p>Perbedaan adalah alasan untuk memperbanyak teman.</p>
+                    <h5 class="red">#BanggaJadiIndonesia</h5>
+                    <img src="img/icon-gallery-ig.png"> @astuti
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="lebih-banyak"><img class="tampilkan" src="img/icon-add.png"> <a href="">Tampilkan lebih banyak</a></div>
+          </div>
+          <!-- REDEEM POIN -->
+          <div id="redeem-items" class="tab-pane fade hidden-xs">
+            <div class="head-redeem-items">
+              <p>
+              Nikmati penawaran spesial dari kami untuk dukungan kamu yang
+              <span class="red">#BanggaJadiIndonesia!</span>
+            </p>
+            <h3>Redeem dengan voucher belanja</h3>
+            </div>
+            <!-- Carousel 1
+            ================================================== -->
+            <div id="myCarousel-one" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                  <div class="row">
+                    <div class="col-xs-12 col-md-3"><!-- ITEMS LIST -->
+                      <div class="items-listing">
+                        <img src="img/item-5.png" alt="Avatar" class="items">
+                        <h4>Sunlight Jeruk Nipis</h4>                        
+                        <button class="btn btn-red">10 poin</button>
+                        <div class="overlay">
+                          <button class="btn btn-add"><img src="img/select-redeem.png"></button>
+                        </div>
+                      </div>
+                    </div> <!-- /ITEMS LIST -->
+                    <div class="col-xs-12 col-md-3"><!-- ITEMS LIST -->
+                      <div class="items-listing">
+                        <img src="img/item-1.png" alt="Avatar" class="items">
+                        <h4>Sunlight Jeruk Nipis</h4>                        
+                        <button class="btn btn-red">10 poin</button>
+                        <div class="overlay">
+                          <button class="btn btn-add"><img src="img/select-redeem.png"></button>
+                        </div>
+                      </div>
+                    </div> <!-- /ITEMS LIST -->
+                    <div class="col-xs-12 col-md-3"><!-- ITEMS LIST -->
+                      <div class="items-listing">
+                        <img src="img/item-3.png" alt="Avatar" class="items">
+                        <h4>Sunlight Jeruk Nipis</h4>                        
+                        <button class="btn btn-red">10 poin</button>
+                        <div class="overlay">
+                          <button class="btn btn-add"><img src="img/select-redeem.png"></button>
+                        </div>
+                      </div>
+                    </div> <!-- /ITEMS LIST -->
+                    <div class="col-xs-12 col-md-3"><!-- ITEMS LIST -->
+                      <div class="items-listing">
+                        <img src="img/item-4.png" alt="Avatar" class="items">
+                        <h4>Sunlight Jeruk Nipis</h4>                        
+                        <button class="btn btn-red">10 poin</button>
+                        <div class="overlay">
+                          <button class="btn btn-add"><img src="img/select-redeem.png"></button>
+                        </div>
+                      </div>
+                    </div> <!-- /ITEMS LIST -->
+                  </div>
+                </div>
+                <a class="left carousel-control" href="#myCarousel-one" role="button" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel-one" role="button" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div><!-- /.carousel -->
+            <div class="redeem-sekarang"><button class="btn btn-red">Redeem Sekarang</button></div>
+          </div><!-- /.redeem-items -->
+          <!-- MOBILE STATUS POIN -->
+          <div id="m-status-poin" class="tab-pane fade visible-xs in active">
+            <h3>
+              <button class="btn btn-grey">Rp.</button>
+              1.500
+            </h3>
+            <div class="lihat">
+              <button type="button" data-toggle="modal" data-target="#tukarvoucher" class="btn btn-red">
+                Tukar Voucher
+              </button>
+            </div>
+            <p>Tukar poin kamu dengan beragam promo menarik!</p>
+            <img class="img-responsive" src="img/m-store-logo2.jpg">
+          </div>
+        </div><!-- /.tab content -->
+      </div><!-- /.container -->
+    </section>
+    <!-- MODALS -->
+    <!-- HOW TO -->
+    <div class="modal fade" id="lihatCaranya" role="dialog">
+      <div class="modal-dialog">
+      
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Cara Mendapatkan Poin</h4>
+          </div>
+          <div class="modal-body">
+            <img src="img/caranya.png" class="img-responsive hidden-xs" >
+            <img src="img/m-caranya.png" class="img-responsive visible-xs" >
+          </div>
+          <div class="modal-footer">
+            <div class="lihat"><button class="btn btn-lihat-red">Daftar Sekarang</button></div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    <!-- REGISTER -->
+    <div class="modal fade" id="register" role="dialog">
+      <div class="modal-dialog">
+      
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Daftarkan Diri Kamu</h4>
+          </div>
+          <div class="modal-body">
+            <form>          
+              <div class="form-group">
+                <input type="name" class="form-control top-resv" id="inputName" placeholder="Name">
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" id="inputEmail1" placeholder="Email">
+              </div>
+              <div class="form-group">
+                <input type="guests" class="form-control" id="inputPhone" placeholder="Phone">
+              </div>
+              <div class="form-group">
+                <input type="guests" class="form-control" id="inputInstagram" placeholder="Instagram">
+              </div>
+              <div class="form-group">
+                <input type="guests" class="form-control" id="inputTwitter" placeholder="Twitter">
+              </div>
+            </form>
+            <div class="info-register">
+              <p>Pastikan kamu menggunakan akun Instagram yang sama</p>
+              <p>untuk meng-upload foto dengan hashtag <span class="red">#BanggaJadiIndonesia</span></p>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <div class="lihat"><button class="btn btn-lihat-red">Daftar Sekarang</button></div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    <!-- THANK YOU -->
+    <div class="modal fade" id="thankyou" role="dialog">
+      <div class="modal-dialog">
+      
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Terimakasih</h4>
+          </div>
+          <div class="modal-body">
+            <div class="info-register">
+              <p>Sekarang kamu sudah bisa ikut serta</p>
+              <p><span class="red">#BanggaJadiIndonesia</span></p>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <div class="lihat"><button class="btn btn-lihat-red">Lihat Profile Kamu</button></div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    <!-- TUKAR VOUCHER -->
+    <div class="modal fade" id="tukarvoucher" role="dialog">
+      <div class="modal-dialog">
+      
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Tukar Voucher</h4>
+          </div>
+          <div class="modal-body">
+            <div class="info-register">
+              <p>Kamu berhasil mendapatkan voucher</p>
+              <p><span class="red">Rp. 10.000</span></p>
+              <p>Silakan pakai kode unik di bawah ini:</p>              
+            </div>
+          </div>
+          <div class="modal-footer">
+            <div class="lihat"><button type="button" class="btn btn-lihat-red" data-dismiss="modal">ULI12345</button></div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/npm.js"></script>
+  </body>
+</html>

@@ -1,0 +1,103 @@
+@media screen and (max-width : 480px){
+	#slide-home img{
+		width: 70%;
+		margin-top: 74px;
+	}
+	#m-item-select h1, .headline{
+		font-size: 20px;
+		text-align: center;
+	}
+	#slide-home{
+		background: url('../img/bg-mhome.jpg') top center no-repeat;
+		color: #fff;
+		height: auto;
+		text-align: center;
+		padding-top: 5%;
+		background-size: 145%;
+	}
+	.btn-slide-home{margin-bottom: 50px;}
+	.carousel{margin-bottom: 0;}
+	/* MODAL CUSTOMIZE */
+	.modal {
+	  text-align: center;
+	  padding: 0!important;
+	}
+
+	.modal:before {
+	  height: 10%;
+	  margin-right: 10px;
+	}
+	.modal-dialog {
+		width: auto;
+		margin-right: 10px;
+		margin-left: 10px;
+	}
+	.modal-title{font-size: 18px;}
+	#m-home-gallery h5, #gallery h5{font-size: 11px;}
+	.br-left{margin-bottom: -40px;	}
+	.br-right{margin-bottom: -18px;}
+	.th-prof-twitter{width: 20%;}
+	#m-gallery h5, #gallery h5{margin: 0 auto;}
+	#m-home-gallery p, #gallery p{
+		text-align: center;
+		font-size: 12px;
+		margin-bottom: 4px;
+	}
+	.count {
+		/*background-color: #c1232d;*/
+		color: #000;
+		font-size: 24px;
+		font-weight: bold;
+		text-align: center;
+		width: 70%;
+		margin: 0 auto 10px;
+		border-radius: 5px;
+	}
+	.home-right{margin-left: 3px;width: 5%;}
+	.menu-home-profile{margin-top: 20px; text-align: right;}
+	.menu-home-profile a{color: #c1232d;font-weight: bold;}
+	.logo-profile{width: 30%;}
+	.profile-picture img {
+	    width: 30%;
+	    margin-top: 20px;
+	}
+	.nav-pills>li>a {font-size: 12px;}
+	.profile h1 {font-size: 26px;}
+	.nav>li>a {padding: 10px 5px;}
+	.nav-justified>li {float: left;}
+	.menu-register-m{
+		background-color: #fff;
+		color: #c1232d;
+		border-radius: 50px;
+	}
+	.items {
+	    display: block;
+	    width: 80%;
+	    height: auto;
+	    margin: auto;
+	}
+	.carousel-indicators .active{background-color: #c1232d;}
+	.carousel-indicators li{border: solid 1px #c1232d;}
+	.carousel-control:focus, .carousel-control:hover {color: #c1232d;}
+	.bg-red{
+		color: #fff;
+		background-color: #c1232d;
+		border-radius: 5px;
+		padding: 5px;
+	}
+	.slogan-m{margin: 20px 0; text-align: center;}
+	.th-twitter{padding-bottom: 6px;}
+	.tampilkan{width: 5%;}
+	.lebih-banyak{
+		text-align: center;
+		margin: 20px;
+		color: #c1232d;
+	}
+	#m-status-poin{text-align: center;}
+	#m-status-poin h3{font-size: 64px; color: #c1232d;}
+	#m-status-poin .btn-grey{
+		padding: 5px;
+		font-size: 10px;
+	}
+	#m-status-poin p{margin: 10px auto;}
+}
